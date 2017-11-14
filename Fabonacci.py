@@ -22,12 +22,11 @@
 
 
 #  我想的太复杂了,一定有两个变量，前后赋值
-num = print('please enter a number:')
+num = print('Please write a number and I can figure out the Fabonacci sequence fot that number')
 n = int(input())
 sum = 0
 a1 = 1
 a2 = 1
-total = 0
 for n in range(1,n+1):
     if n <= 2:
         print(a1)
