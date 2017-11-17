@@ -50,3 +50,14 @@ for n in range(1, n+1):
     if n < 5:
         a += 2
         str = print(a * '*')
+
+
+#字符串的分割#
+s = 'maybe i should do more and less talk'
+print(s. split())
+
+#字符串的拼接#
+a = ['a','b','c']
+s = ','
+b = s.join(a)
+print(b)
